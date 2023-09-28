@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "lato";
+  src: url(./../fonts/Lato-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato";
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  margin-inline: 4rem;
+}
+p.a {
+  font-size: 1.5rem;
+}
+li {
+  display: flex;
+  align-items: flex-end;
+}
+p.a::before {
+  content: url(https://s3-alpha-sig.figma.com/img/ec68/b195/76c00acad0fcb1614bbb94613b8417fa?Expires=1696809600&Signature=etkbbFxJUhvHOXEA5r61YnQoPRo-pxcawwDwoHY0fv918-p2~dmC6Ec8iUEOUlmXagD22ZfDI8WdTDkal4L0EP1fA1jz9qdRnydVBEu58zZU24hUoBB0A-VdAESfD-BwBEk6NkOlMQf7pfgLEqIwHe77AToJ-XGyWkGK2TzIiKXDsdevZwUWYYjnzG9peVE93JYU8CutFWF0ul5T~2y9vGY-eX4RJcy3rhp5SLYvenn0Mfa2PCicCkKnBhgyPAWe746n9etfDiziyawiUVA2IESU4zXxDEgJjVnHNgMv97UHfCB~DR~gGNI~Ul0hzMAiEyvtn6LF9z8Do~lfsG7w-A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+}
+header div {
+  display: flex;
+  gap: 4rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+section {
+  background-color: #d9e8e5;
+  min-height: 100vh;
+  padding: 100px;
+}
+section div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+img {
+  display: block;
+}

@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "rale";
+  src: url(./../fonts/Raleway-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "rale";
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+header {
+  color: white;
+}
+nav {
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 186px 11px 186px;
+  position: sticky;
+  top: 0;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+a.logo {
+  color: #666666;
+  font-size: 1.5rem;
+  line-height: 3.25rem;
+  font-weight: 300;
+}
+a.logo:hover {
+  color: #333333;
+}
+header h1 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  font-weight: 400;
+}
+header p {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+nav a {
+  color: #4c4c4c;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #337ab7;
+}
+div.bildhead {
+  background: url(https://s3-alpha-sig.figma.com/img/0c35/f846/38e75180597332d03d601c4abfcc1940?Expires=1696809600&Signature=gWKj-PiNgtnrHg0M1aVc0aQO7WS~lQKUas1tA4sNpOIkCZIXsxbapBh2UZZOsSsNLZPv1W56iNSsAByRC6nj1QYSxAMo2KFxPPTlJjds8EntBJEIJHWq3DR3TkfmCi8p7AWbov0VBeV4-vd2mMmGrR1EiXhIwEExogrfbA8Ytrp0FOf-0N4zeCKpuP76Hhz1JyxuC5Bwkz2BtPVLUA2kGRSeRulGTE2ae-vQjxSyQJ5mSZdBDLZpOa-CXbH3oyKDF~IF2lIouV-UMXgoKO5Dcn~7o4DkXFWB1XuZ3i-e2s0AIKGMrp6MVhVTpqxmlxMNTXXnHkOBqT-mfdf~kaNIwA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)
+    no-repeat;
+  background-size: contain;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+a.picture {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  font-weight: 700;
+  padding: 15px 60px;
+}
+a.down {
+  border: 1px solid white;
+}
+a.down:hover {
+  background-color: white;
+  color: black;
+}
+a.read {
+  background-color: #745cf9;
+}
+a.read:hover {
+  background-color: #2f0bf8;
+}
+.bildhead div {
+  display: flex;
+  gap: 4px;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+section {
+  background: url(https://images.unsplash.com/photo-1679678691006-3afa56204979?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2938&q=80)
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  background: rgba(97, 145, 158, 0.46);
+  justify-content: space-between;
+  padding: 1rem;
+}
+p {
+  display: flex;
+  color: white;
+  gap: 2rem;
+  margin-right: 50px;
+}
+a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  gap: 1rem;
+}
