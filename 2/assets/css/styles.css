@@ -58,7 +58,7 @@ nav a {
 nav a:hover {
   color: #337ab7;
 }
-div.bildhead {
+section.bildhead {
   background: url(https://s3-alpha-sig.figma.com/img/0c35/f846/38e75180597332d03d601c4abfcc1940?Expires=1696809600&Signature=gWKj-PiNgtnrHg0M1aVc0aQO7WS~lQKUas1tA4sNpOIkCZIXsxbapBh2UZZOsSsNLZPv1W56iNSsAByRC6nj1QYSxAMo2KFxPPTlJjds8EntBJEIJHWq3DR3TkfmCi8p7AWbov0VBeV4-vd2mMmGrR1EiXhIwEExogrfbA8Ytrp0FOf-0N4zeCKpuP76Hhz1JyxuC5Bwkz2BtPVLUA2kGRSeRulGTE2ae-vQjxSyQJ5mSZdBDLZpOa-CXbH3oyKDF~IF2lIouV-UMXgoKO5Dcn~7o4DkXFWB1XuZ3i-e2s0AIKGMrp6MVhVTpqxmlxMNTXXnHkOBqT-mfdf~kaNIwA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)
     no-repeat;
   background-size: contain;
